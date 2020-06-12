@@ -6,6 +6,10 @@ html,body,#root,.App,.carousel-root, .carousel.carousel-slider, .slider-wrapper,
 .slide > div{
   display: flow-root;
 }
+.slide > div > h1{
+  margin-top: 150px;
+  color: white;
+}
 
 
 /* CAROUSEL OVERRIDE */
