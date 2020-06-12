@@ -1,0 +1,10 @@
+#task{
+    background: rgba(180,123,206,1);
+    background: -moz-linear-gradient(top, rgba(180,123,206,1) 0%, rgba(187,134,200,1) 12%, rgba(214,176,175,1) 59%, rgba(237,213,154,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(180,123,206,1)), color-stop(12%, rgba(187,134,200,1)), color-stop(59%, rgba(214,176,175,1)), color-stop(100%, rgba(237,213,154,1)));
+    background: -webkit-linear-gradient(top, rgba(180,123,206,1) 0%, rgba(187,134,200,1) 12%, rgba(214,176,175,1) 59%, rgba(237,213,154,1) 100%);
+    background: -o-linear-gradient(top, rgba(180,123,206,1) 0%, rgba(187,134,200,1) 12%, rgba(214,176,175,1) 59%, rgba(237,213,154,1) 100%);
+    background: -ms-linear-gradient(top, rgba(180,123,206,1) 0%, rgba(187,134,200,1) 12%, rgba(214,176,175,1) 59%, rgba(237,213,154,1) 100%);
+    background: linear-gradient(to bottom, rgba(180,123,206,1) 0%, rgba(187,134,200,1) 12%, rgba(214,176,175,1) 59%, rgba(237,213,154,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b47bce', endColorstr='#edd59a', GradientType=0 );
+}
