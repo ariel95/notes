@@ -14,7 +14,7 @@ import Task from './components/Task'
 import { Carousel } from 'react-responsive-carousel';
 
 //HELPERS
-import { IsMobile } from './helpers/window'
+import { IsMobile } from './helpers/Window'
 
 //CSS
 import "react-responsive-carousel/lib/styles/carousel.min.css";
