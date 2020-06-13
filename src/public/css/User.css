@@ -1,0 +1,26 @@
+.user-picture{
+    float: left;
+    display: flex;
+}
+.user-name{
+    display: flex;
+    position: relative;
+    float: left;
+    top: 15px;
+    margin-left: 15px;
+    color: white;
+}
+.user-picture > img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px !important;
+}
+
+#user{
+    margin: 25px;
+    background: #ffffff1f;
+    border: 1px solid #ffffff2b;
+    display: flex;
+    padding: 10px;
+    border-radius: 15px;
+}

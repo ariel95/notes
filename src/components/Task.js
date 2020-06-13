@@ -4,7 +4,7 @@ import '../public/css/Task.css'
 const Task = () => {
 
     return(
-        <div id="task">
+        <div id="task" className="background-b-v">
             <h1>Task</h1>
         </div>
     );
