@@ -24,3 +24,10 @@
     padding: 10px;
     border-radius: 15px;
 }
+
+#user #menu{
+    display: flex;
+    position: relative;
+    top: -2px;
+    right: -20px;
+}

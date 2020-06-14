@@ -19,3 +19,11 @@
     color: #ffffffb0;
     font-size: 18px;
   }
+  .dropdown-menu .dropdown-item:hover{
+    color: #ffffffb0;
+    background: #0e282dbf;
+  }
+  #dropdown-menu,#dropdown-menu:hover{
+    background: none !important;
+    border: none !important;
+  }

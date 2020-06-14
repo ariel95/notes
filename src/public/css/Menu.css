@@ -1,6 +1,11 @@
  #menu{
+    
+    position: absolute;
     display: flex;
-    position: relative;
-    top: -2px;
-    right: -20px;
+    /* position: relative; */
+    /* top: -2px; */
+    /* right: 0; */
+    /* left: 0; */
+    right: 15px;
+    top: 15px;
   }
