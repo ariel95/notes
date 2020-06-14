@@ -27,7 +27,8 @@
 
 #user #menu{
     display: flex;
-    position: relative;
-    top: -2px;
-    right: -20px;
+    position: absolute;
+    top: 35px;
+    /* right: -20px; */
+    right: 25px;
 }
