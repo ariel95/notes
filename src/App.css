@@ -6,6 +6,11 @@ html,body,#root,.App,.carousel-root, .carousel.carousel-slider, .slider-wrapper,
   *{
     font-family: Arial, Helvetica, sans-serif;
   }
+  *:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
 
 .slide > div{
   display: flow-root;
@@ -90,3 +95,4 @@ html,body,#root,.App,.carousel-root, .carousel.carousel-slider, .slider-wrapper,
   background: linear-gradient(to right, rgba(53,179,207,1) 0%, rgba(194,139,207,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#35b3cf', endColorstr='#c28bcf', GradientType=1 );
 }
+
