@@ -11,10 +11,10 @@ const Notes = () => {
         <div id="notes" className="background-o-y">
             <Menu></Menu>
             <h1>Notes</h1>
-            <div className="notes-container">
+            <div className="notes-container" onTouchStart={(e) => {e.preventDefault(); e.stopPropagation()} }>
                 {
                     notesList.map((elem) =>
-                        <div className="note">
+                        <div className="note" >
                             <div className="title"><b>{elem.title}</b></div>
                             <div className="text">
                                 <span>{elem.note}</span>

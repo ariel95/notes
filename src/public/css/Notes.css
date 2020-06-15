@@ -1,18 +1,24 @@
-#notes .notes-container .note{
-    min-height: 70px;
-    padding: 10px;
-    margin: 25px;
-    border: 1px solid #00000045;
-    border-radius: 5px;
-    text-align: left;
-    background: #00000045;
-    color: #ffffffb0;
-}
-
 #notes .notes-container{
     max-height: 60vh;
     /* overflow-x: hidden;
     overflow-y: scroll; */
     overflow: scroll;
-    margin: 30px;
+    margin: 45px;
+    margin-top: 0;
 }
+
+#notes .notes-container .note{
+    min-height: 70px;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 1px solid #00000012;
+    border-radius: 0px;
+    text-align: left;
+    background: #00000036;
+    color: #ffffffb0;
+}
+
+#notes .notes-container .note .title{
+    color: white;
+}
+
