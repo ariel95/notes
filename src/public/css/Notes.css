@@ -22,3 +22,18 @@
     color: white;
 }
 
+#notes .note .edit{
+    background: none;
+    position: absolute;
+    right: 0;
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 2px;
+    border-radius: 50%;
+}
+#notes .note .actions{
+    position: relative;
+    
+}
