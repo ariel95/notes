@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import '../public/css/Notes.css'
-import Menu from './Menu'
 import NotesList from './Notes.List'
 import Note from './Note.Edit'
+import Header from './Header'
 
 const Notes = (props) => {
 
@@ -23,8 +23,9 @@ const Notes = (props) => {
 
     return (
         <div id="notes" className="background-o-y">
-            <Menu></Menu>
-            <h1>Notes</h1>
+            <Header>
+                <span>Notes</span>
+            </Header>
             {renderView()}
         </div>
     );

@@ -1,0 +1,19 @@
+#header{
+    height: 70px;
+    margin: 25px;
+    background: #ffffff1f;
+    border: 1px solid #ffffff2b;
+    padding: 14px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    position: relative;
+}
+
+/* #header #menu{
+    display: flex;
+    position: absolute;
+    top: 34px;
+    right: 25px;
+} */

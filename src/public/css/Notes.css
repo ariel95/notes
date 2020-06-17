@@ -35,7 +35,8 @@
 }
 
 #notes .note .delete{
-    right: 30px;
+    /* right: 30px; */
+    top:25px;
 }
 
 #notes .note .actions{
@@ -88,23 +89,16 @@
     color: #ffffffc7;
 }
 #notes .go-back{
-    margin-left: 30px;
     color: white;
     position: absolute;
-    top: -80px;
+    top: -70px;
     cursor: pointer;
+    left: 50px;
 }
-/* #notes .action-note{
-    position: absolute;
-    top: 10px;
-    color: #ffffffc7;
-    width: 100%;
-} */
 
 #notes .note-container{
     position: relative;
 }
-
 
 #notes .p-component.p-editor-container .ql-editor p{
     font-size: 18px;
@@ -117,4 +111,16 @@
 
 #notes .p-inputtext:enabled:hover{
     border: 1px solid #00000052;
+}
+
+#notes .p-inputtext{
+    width: 100%;
+}
+
+/* #note .note > div{
+    display: inline;
+} */
+#notes .note > .text,
+#notes .note > .title{
+    width: 90%;
 }

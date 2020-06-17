@@ -1,34 +1,23 @@
-.user-picture{
+#user .user-picture{
     float: left;
     display: flex;
 }
-.user-name{
+#user .user-name{
     display: flex;
-    position: relative;
-    float: left;
-    top: 15px;
-    margin-left: 15px;
     color: white;
+    font-size: 13px;
+    width: 100%;
+    position: absolute;
+    top: 22px;
+    left: 70px;
+    font-size: 18px;
 }
-.user-picture > img{
+#user .user-picture > img{
     border-radius: 50%;
     height: 50px;
     width: 50px !important;
 }
 
-#user{
-    margin: 25px;
-    background: #ffffff1f;
-    border: 1px solid #ffffff2b;
-    display: flex;
+#user #header{
     padding: 10px;
-    border-radius: 15px;
-}
-
-#user #menu{
-    display: flex;
-    position: absolute;
-    top: 35px;
-    /* right: -20px; */
-    right: 25px;
 }
