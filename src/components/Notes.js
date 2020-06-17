@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import '../public/css/Notes.css'
 import Menu from './Menu'
 import NotesList from './Notes.List'
-import Note from './Note'
+import Note from './Note.Edit'
 
 const Notes = (props) => {
 
@@ -17,7 +17,7 @@ const Notes = (props) => {
             return <NotesList setNoteSelected={setNoteSelected}></NotesList>
         }
         else{
-            return <Note data={noteSelected}></Note>
+            return <Note setNoteSelected={setNoteSelected} data={noteSelected}></Note>
         }
     }
 

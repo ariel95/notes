@@ -15,13 +15,13 @@ const Calendar = (props) => {
     const today = new Date();
     const year = today.getFullYear();
     const yearRange = (year-5).toString() + ":" + (year+5).toString();
-    const [date14, setDate14] = useState(null);
+    const [date, setDate] = useState(null);
     
     return(
         <div id="calendar" className="background-p-o">
             <Menu></Menu>
             <h1>Calendar</h1>
-            <CalendarP value={date14} onChange={(e) => setDate14(e.value)} inline={true} showWeek={false} monthNavigator={true} yearNavigator={true} yearRange={yearRange} />
+            <CalendarP value={date} onChange={(e) => setDate(e.value)} inline={true} showWeek={false} monthNavigator={true} yearNavigator={true} yearRange={yearRange} />
         </div>
     );
 }

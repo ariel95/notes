@@ -22,18 +22,95 @@
     color: white;
 }
 
+#notes .note .delete,
 #notes .note .edit{
+    cursor: pointer;
     background: none;
     position: absolute;
-    right: 0;
-    border: 1px solid white;
+    right: -5px;
     width: 30px;
     height: 30px;
     text-align: center;
     padding: 2px;
-    border-radius: 50%;
 }
+
+#notes .note .delete{
+    right: 30px;
+}
+
 #notes .note .actions{
     position: relative;
     
+}
+
+#notes .p-component.p-editor-container{
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 1px solid #0000006b;
+}
+
+#notes .p-component.p-editor-container .p-editor-toolbar.ql-toolbar.ql-snow{
+    background: #0000006b;
+    border: none;
+    color:#ffffffb3;
+}
+#notes .p-component.p-editor-container .ql-editor{
+    background:#0000003b;
+    border: none;
+    color:#ffffffb3;
+}
+#notes .p-editor-container .p-editor-content{
+    border:none;
+}
+
+#notes .p-editor-container button.ql-active .ql-stroke,
+#notes .p-editor-container button.ql-active .ql-fill{
+    color:#ffffffb3;
+    stroke: #ffffffb3;
+}
+
+#notes .clear-note{
+    position: absolute;
+    cursor: pointer;
+    right: 50px;
+    top:10px;
+    color: #ffffffc7;
+}
+#notes .save-note{
+    position: absolute;
+    cursor: pointer;
+    left: 50px;
+    top:10px;
+    color: #ffffffc7;
+}
+#notes .go-back{
+    margin-left: 30px;
+    color: white;
+    position: absolute;
+    top: -80px;
+    cursor: pointer;
+}
+/* #notes .action-note{
+    position: absolute;
+    top: 10px;
+    color: #ffffffc7;
+    width: 100%;
+} */
+
+#notes .note-container{
+    position: relative;
+}
+
+
+#notes .p-component.p-editor-container .ql-editor p{
+    font-size: 18px;
+}
+
+#notes .notes-filter{
+    text-align: left;
+    margin: 25px 45px 25px 45px;
+}
+
+#notes .p-inputtext:enabled:hover{
+    border: 1px solid #00000052;
 }
