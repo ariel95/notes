@@ -7,8 +7,8 @@ import {Editor} from 'primereact/editor';
 
 const Note = (props) => {
 
-    const [id] = useState(props.data.id);
-    const [title, setTitle] = useState(props.data.title);
+    // const [id] = useState(props.data.id);
+    // const [title, setTitle] = useState(props.data.title);
     const [text, setText] = useState(props.data.text);
 
 
