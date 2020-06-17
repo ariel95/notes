@@ -60,7 +60,11 @@
     color:#ffffffb3;
 }
 #notes .p-editor-container .p-editor-content{
-    border:none;
+    border: none;
+    min-height: auto !important;
+    max-height: 50vh;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 #notes .p-editor-container button.ql-active .ql-stroke,

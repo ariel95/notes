@@ -23,11 +23,11 @@ const Note = (props) => {
     );
 
     return (
-        <div className="note-container">
+        <div className="note-container"  onTouchStart={(e) => { e.stopPropagation() }}>
             <div className="go-back" onClick={() => props.setNoteSelected(null)}>
                 Back
             </div>
-            <Editor headerTemplate={header} style={{height:'320px'}} value={text} onTextChange={(e)=> setText(e.htmlValue)}/>
+            <Editor headerTemplate={header} value={text} onTextChange={(e)=> setText(e.htmlValue)}/>
             {/* <p>Value: {text ||'empty'}</p> */}
             <div className="action-note">
                 <div className="clear-note" onClick={() => setText('')}><span>Clear</span></div>
