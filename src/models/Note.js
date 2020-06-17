@@ -11,7 +11,7 @@ class Note {
         let n2 = new Note();
             n2.id = 99;
             n2.title="Finish my homework";
-            n2.text="Today I have to finish my homework becouse";
+            n2.text="Today I have to finish my homework";
             list.push(n2);
             let n3 = new Note();
             n3.id = 100;
