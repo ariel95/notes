@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react'
-import Note from '../../models/Note'
+import {GetNotes} from '../../api/Note'
 import { Pen, TrashFill } from 'react-bootstrap-icons'
-import Filter from './Notes.List.Filter'
+import Filter from './Filter'
 
 const NotesList = (props) => {
 
-    const [notesList, setNotesList] = useState(Note.GetNotes());
+    const [notesList, setNotesList] = useState(GetNotes());
     const [filterValue, setFilterValue] = useState('');
 
     function onEditClick(elem) {
@@ -16,14 +16,12 @@ const NotesList = (props) => {
     }
 
     useEffect(() => {
-        const notes = Note.GetNotes(); 
+        const notes = GetNotes(); 
         setNotesList(notes.filter((e) => e.text.toLowerCase().includes(filterValue.toLowerCase()) || e.title.toLowerCase().includes(filterValue.toLowerCase())));
     },[filterValue])
 
-
-
     return (
-        <div>
+        <div className={props.className}>
             <Filter filterValue={filterValue} setFilterValue={setFilterValue}></Filter>
             <div className="notes-container" onTouchStart={(e) => { e.stopPropagation() }}>
                 {

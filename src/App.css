@@ -97,3 +97,6 @@ html,body,#root,.App,.carousel-root, .carousel.carousel-slider, .slider-wrapper,
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#35b3cf', endColorstr='#c28bcf', GradientType=1 );
 }
 
+.hide{
+  display: none !important;
+}

@@ -11,9 +11,6 @@ const Note = (props) => {
     // const [title, setTitle] = useState(props.data.title);
     const [text, setText] = useState(props.data.text);
 
-
-    
-
     const header = (
         <span className="ql-formats">
             <button className="ql-bold" aria-label="Bold"></button>
