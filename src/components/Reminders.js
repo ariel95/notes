@@ -1,6 +1,6 @@
 import React from 'react'
 import '../public/css/Reminders.css'
-import Header from './Header'
+import Header from './header/Header'
 
 const Reminders = () => {
 

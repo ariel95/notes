@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import Note from '../models/Note'
+import Note from '../../models/Note'
 import { Pen, TrashFill } from 'react-bootstrap-icons'
 import Filter from './Notes.List.Filter'
 

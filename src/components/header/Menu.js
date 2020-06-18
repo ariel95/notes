@@ -1,7 +1,7 @@
 import React from 'react'
 import Dropdown from 'react-bootstrap/Dropdown'
 import {ThreeDotsVertical} from 'react-bootstrap-icons'
-import '../public/css/Menu.css'
+import '../../public/css/Menu.css'
 
 const Menu = () => {
 

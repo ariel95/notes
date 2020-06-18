@@ -1,13 +1,11 @@
 import React from 'react'
 import '../public/css/Home.css'
 import User from './User'
-import Header from './Header'
+import Header from './header/Header'
 const Home = (props) => {
 
     return(
         <div id="home" className="background-v-p">
-            {/* <User></User>
-            <h1>Home</h1> */}
             <Header>
                 <User></User>
             </Header>

@@ -5,7 +5,7 @@ import React, { useEffect } from 'react';
 import Home from './components/Home'
 import Calendar from './components/Calendar'
 import Habits from './components/Habits'
-import Notes from './components/Notes'
+import Notes from './components/notes/Notes'
 import Reminders from './components/Reminders'
 import Task from './components/Task'
 

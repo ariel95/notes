@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
-import '../public/css/Notes.css'
+import '../../public/css/Notes.css'
 import NotesList from './Notes.List'
 import Note from './Note.Edit'
-import Header from './Header'
+import Header from '../header/Header'
 
 const Notes = (props) => {
 

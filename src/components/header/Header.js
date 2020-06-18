@@ -1,6 +1,6 @@
 import React from 'react'
 import Menu from './Menu'
-import '../public/css/Header.css'
+import '../../public/css/Header.css'
 
 const Header = (props) => {
     return(
