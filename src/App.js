@@ -21,7 +21,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import './public/css/Dropdown.css';
-
+import './public/css/MenuFooter.css'
 
 function App() {
 
@@ -30,7 +30,7 @@ function App() {
   }, [])
 
   return (
-    <div className="App">
+    <div id="app" className="App">
       <Carousel showArrows={!IsMobile()} infiniteLoop={true} showStatus={false} showThumbs={false} selectedItem={Site()}>
         <Home></Home>
         <Calendar></Calendar>

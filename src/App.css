@@ -100,3 +100,7 @@ html,body,#root,.App,.carousel-root, .carousel.carousel-slider, .slider-wrapper,
 .hide{
   display: none !important;
 }
+ 
+#app.menu-footer .control-dots{
+  display: none;
+} 

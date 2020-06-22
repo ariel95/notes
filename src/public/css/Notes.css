@@ -18,6 +18,11 @@
     color: #ffffffb0;
 }
 
+#notes .notes-container .note.selected{
+    background: #00000061;
+    border: 2px solid #0000003b;
+}
+
 #notes .notes-container .note .title{
     color: white;
 }

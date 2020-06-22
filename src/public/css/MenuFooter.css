@@ -1,0 +1,28 @@
+ #menu-footer{
+    position: absolute;
+    background: #0000006e;
+    width: -webkit-fill-available;
+    bottom: 0;
+    height: 60px;
+    border-top: 2px solid #3737374a;
+    /* display: flex; */
+    text-align: center;
+} 
+
+/* #menu-footer .edit {
+    display: inline-block;
+}
+
+#menu-footer .delete {
+    display: inline-block;
+} */
+
+#menu-footer > div {
+    font-size: 25px;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+    color: #ffffffb8;
+    margin-right: 20px;
+    margin-left: 20px;
+}
